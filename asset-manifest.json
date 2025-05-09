@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bingo-game-v2/static/css/main.f5d6bf98.css",
+    "main.js": "/bingo-game-v2/static/js/main.808297d6.js",
+    "static/media/background.jpg": "/bingo-game-v2/static/media/background.ddb7e4705f4c70190dd0.jpg",
+    "service-worker.js": "/bingo-game-v2/service-worker.js",
+    "index.html": "/bingo-game-v2/index.html",
+    "main.f5d6bf98.css.map": "/bingo-game-v2/static/css/main.f5d6bf98.css.map",
+    "main.808297d6.js.map": "/bingo-game-v2/static/js/main.808297d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5d6bf98.css",
+    "static/js/main.808297d6.js"
+  ]
+}
