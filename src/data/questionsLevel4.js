@@ -60,7 +60,7 @@ const questionsLevel4 = [
     level: 4,
     position: "2-2",
     caseText:
-      "A 16-year-old male suffers a concussion. He understands and follows commands and repeats spoken language. He has trouble with spelling, mild word-finding difficulty, and trouble understanding written language and pictures.",
+      "A 16-year-old male is brought to the emergency department by ambulance after suffering a concussion during a football game. Upon regaining consciousness, he is able to understand and follow commands, including accurately repeating spoken language. However, he experiences difficulty with spelling, mild word-finding difficulty, and problems understanding written language and pictures.",
     subQuestions: [
       {
         text: "Which of the following brain regions is most likely affected in this patient?",
@@ -88,7 +88,7 @@ const questionsLevel4 = [
     level: 4,
     position: "3-0",
     caseText:
-      "A 40-year-old man visits the physician because of uncontrolled movements. The physician observes chorea during walking.",
+      "A 40-year-old man visits the physician because of uncontrolled movements of her arms, legs, head, face, and upper body. These symptoms have increased progressively during the past 12 months. The physician asks the patient to perform the walking test and he performs a chorea movement.",
     subQuestions: [
       {
         text: "Within which of the following areas of the brain does neuronal degeneration result in this presentation?",
