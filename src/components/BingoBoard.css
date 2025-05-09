@@ -1,0 +1,38 @@
+.bingo-board-wrapper {
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  margin-top: 40px; /* Tuỳ chọn, có thể thay đổi tùy ý */
+  position: relative; /* Đảm bảo đường nối xuất hiện đúng vị trí */
+}
+
+.bingo-board {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bingo-row {
+  display: flex;
+  gap: 10px;
+}
+
+/* Đảm bảo các ô trong BingoBoard có kích thước đồng đều */
+.bingo-cell {
+  width: 80px; /* Chiều rộng của mỗi ô */
+  height: 80px; /* Chiều cao của mỗi ô */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bingo-cell:hover {
+  background-color: #e1e1e1; /* Màu nền khi hover */
+}
+

@@ -1,0 +1,54 @@
+/* Wrapper toàn màn hình để căn giữa */
+.summary-wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container chứa nội dung tổng kết */
+.summary-container {
+  background-color: rgba(0, 0, 0, 0.6); /* Nền mờ để dễ đọc chữ */
+  padding: 40px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  width: 90%;
+}
+
+/* Tiêu đề */
+.summary-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Các dòng thông tin */
+.summary-container h2,
+.summary-container p {
+  font-size: 20px;
+  margin: 15px 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* Nút Restart */
+.summary-container button {
+  background-color: #f15a29;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.summary-container button:hover {
+  background-color: #d94f22;
+}

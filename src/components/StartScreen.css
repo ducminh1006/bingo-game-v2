@@ -1,0 +1,18 @@
+.start-background {
+  background-image: url("../images/background.jpg"); /* đúng đường dẫn ảnh */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* lớp phủ tối giúp chữ nổi bật */
+  padding: 40px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  color: white; /* đảm bảo chữ là màu trắng */
+}

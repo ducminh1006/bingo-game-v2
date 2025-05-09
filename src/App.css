@@ -1,0 +1,18 @@
+.app-background {
+  background-image: url("./images/background.jpg"); /* sửa lại đường dẫn nếu khác */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-overlay {
+  background-color: ; /* lớp phủ màu trắng mờ */
+  padding: 20px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 1000px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}

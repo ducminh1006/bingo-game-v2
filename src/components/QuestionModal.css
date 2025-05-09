@@ -1,0 +1,51 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/background.jpg"); /* ✅ ảnh nền bạn muốn */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  color: white; /* ✅ Tất cả chữ trắng */
+}
+
+.modal-box {
+  background-color: rgba(0, 0, 0, 0.6); /* ✅ lớp nền tối giúp dễ đọc chữ */
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+/* Đảm bảo radio và label hiển thị rõ */
+.modal-box label {
+  color: white;
+}
+
+.modal-box h2,
+.modal-box p,
+.modal-box li {
+  color: white;
+}
+
+/* (tuỳ chọn) nút submit */
+.button {
+  background-color: #f15a29;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #d94f22;
+}

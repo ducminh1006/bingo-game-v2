@@ -1,0 +1,10 @@
+.info-panel {
+  color: white;
+}
+.info-panel {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  text-align: right;
+  color: white; /* 👈 màu chữ trắng */
+}
