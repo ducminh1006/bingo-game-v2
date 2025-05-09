@@ -15,12 +15,12 @@
 }
 
 .modal-box {
-  background-color: rgba(0, 0, 0, 0.6); /* ✅ lớp nền tối giúp dễ đọc chữ */
+  background-color: rgba(0, 0, 0, 0.85); /* ✅ lớp nền tối giúp dễ đọc chữ */
   padding: 20px;
   border-radius: 10px;
   width: 90%;
   max-width: 600px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   color: white;
 }
 
