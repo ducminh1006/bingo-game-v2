@@ -33,10 +33,9 @@ const questionsLevel1 = [
   {
     position: "3-2",
     level: 1,
-    text: "At what point does membrane potential come closest to matching Na⁺ equilibrium potential?",
-    image:  "/images/natri.jpg",
-    options: ["Point A", "Point B", "Point C", "Point D"],
-    correctAnswer: "Point A",
+    text: "Which of the following is characteristic of the events occurring at an excitatory synapse?",
+    options: ["There is a massive efflux of calcium from the presynaptic terminal", "Synaptic vesicles bind to the postsynaptic membrane", "Voltage-gated potassium channels are closed", "Ligand-gated channels are opened to allow sodium entry into the postsynaptic neuron"],
+    correctAnswer: "Ligand-gated channels are opened to allow sodium entry into the postsynaptic neuron",
   },
 ];
 
