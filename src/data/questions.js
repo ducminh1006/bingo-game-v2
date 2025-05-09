@@ -34,7 +34,7 @@ const questionsLevel1 = [
     position: "3-2",
     level: 1,
     text: "At what point does membrane potential come closest to matching Na⁺ equilibrium potential?",
-    image: "/images/natri.jpg",
+    image: process.env.PUBLIC_URL + "/images/natri.jpg",
     options: ["Point A", "Point B", "Point C", "Point D"],
     correctAnswer: "Point A",
   },

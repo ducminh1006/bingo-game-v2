@@ -3,7 +3,7 @@ const questionsLevel2 = [
     position: "0-1",
     level: 2,
     text: "A 62-year-old woman has visual changes and is diagnosed with a pituitary tumor. Which visual field defect is most likely?",
-    image: "/images/pituary.jpg",
+    image: process.env.PUBLIC_URL + "/images/pituary.jpg",
     options: ["A", "B", "C", "D"],
     correctAnswer: "D",
   },
