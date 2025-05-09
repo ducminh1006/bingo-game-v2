@@ -2,7 +2,7 @@ const questionsLevel1 = [
   {
     position: "0-0",
     level: 1,
-    text: "An 82-year-old woman with end-stage renal disease has hyperkalemia. What effect does elevated extracellular potassium have on nerve membranes?",
+    text: "An 82-year-old woman with end-stage renal disease is brought to the emergency department complaining of nausea, vomiting, muscle cramps, and generalized weakness. Laboratory analysis reveals significant hyper-kalemia. Elevations of extracellular potassium ion concentration will have which of the following effects on nerve membranes?",
     options: [
       "The activity of the Na⁺–K⁺ pump will decrease",
       "The membrane potential will become more negative",
@@ -21,7 +21,7 @@ const questionsLevel1 = [
   {
     position: "2-1",
     level: 1,
-    text: "Which of the following is NOT a typical effect caused by presynaptic neuron stimuli?",
+    text: "Each neuron can receive many stimuli from its presynaptic neurons. These stimuli from the preceding neurons cause the following effects, EXCEPT:",
     options: [
       "Spatial summation of stimuli.",
       "Temporal summation of stimuli",
