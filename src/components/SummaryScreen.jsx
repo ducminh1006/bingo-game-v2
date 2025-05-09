@@ -12,7 +12,7 @@ export default function SummaryScreen({ team, time, score, bingoWon }) {
         <h2>
           {bingoWon
             ? "🎉 Bingo! You have completed the game!"
-            : "⏱ Time out! – You have not completed the game!"}
+            : "⏱ Game Over! – You have not completed the game!"}
         </h2>
       </div>
     </div>
