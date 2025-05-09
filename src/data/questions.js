@@ -33,9 +33,9 @@ const questionsLevel1 = [
   {
     position: "3-2",
     level: 1,
-    text: "Which of the following is characteristic of the events occurring at an excitatory synapse?",
-    options: ["There is a massive efflux of calcium from the presynaptic terminal", "Synaptic vesicles bind to the postsynaptic membrane", "Voltage-gated potassium channels are closed", "Ligand-gated channels are opened to allow sodium entry into the postsynaptic neuron"],
-    correctAnswer: "Ligand-gated channels are opened to allow sodium entry into the postsynaptic neuron",
+    text: "Which two arteries join to form the basilar artery at the base of the brain?",
+    options: ["Internal carotid arteries", "External carotid arteries", "Vertebral arteries", "Middle cerebral arteries"],
+    correctAnswer: "Vertebral arteries",
   },
 ];
 
