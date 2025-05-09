@@ -33,7 +33,7 @@ export default function QuestionModal({ question, onClose, onAnswer }) {
 
   return (
     <div className="modal-overlay">
-      <div className="modal-content">
+      <div className="modal-box">
         {/* MỨC 4 */}
         {isLevel4 ? (
           <>
@@ -72,6 +72,7 @@ export default function QuestionModal({ question, onClose, onAnswer }) {
             <div style={{ marginTop: "20px" }}>
               {!submitted ? (
                 <button
+                  className="button"
                   onClick={handleSubmit}
                   disabled={selectedSubs.some((s) => !s)}
                 >
@@ -86,7 +87,11 @@ export default function QuestionModal({ question, onClose, onAnswer }) {
                 </p>
               )}
               {/* Nút Close chỉ khả dụng sau khi đã trả lời */}
-              <button onClick={onClose} disabled={!submitted}>
+              <button
+                className="button"
+                onClick={onClose}
+                disabled={!submitted}
+              >
                 Close
               </button>
             </div>
@@ -128,7 +133,11 @@ export default function QuestionModal({ question, onClose, onAnswer }) {
             </ul>
             <div style={{ marginTop: "20px" }}>
               {!submitted ? (
-                <button onClick={handleSubmit} disabled={selected === null}>
+                <button
+                  className="button"
+                  onClick={handleSubmit}
+                  disabled={selected === null}
+                >
                   Submit
                 </button>
               ) : (
@@ -139,7 +148,11 @@ export default function QuestionModal({ question, onClose, onAnswer }) {
                 </p>
               )}
               {/* Nút Close chỉ khả dụng sau khi đã trả lời */}
-              <button onClick={onClose} disabled={!submitted}>
+              <button
+                className="button"
+                onClick={onClose}
+                disabled={!submitted}
+              >
                 Close
               </button>
             </div>
